@@ -18,9 +18,6 @@ Includes utility functions for retrieving currency codes, converting Euro → US
 
 ## 📸 Screenshots
 
-### Number Guess Example (unrelated demo)
-![Number Guess Screenshot](screenshots/Screenshot%202025-09-16%20160141.png)
-
 ### Currency Conversion Example
 ![Currency Conversion Screenshot](screenshots/Screenshot%202025-11-26%20000926.png)
 
