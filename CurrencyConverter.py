@@ -32,13 +32,10 @@ def getCurrency(amount,country):
   
 
 def main():
- print(EuroToUsd(15))
- print(getCode("japan"))
- print(getCurrency(15,"united kingdom"))
-
-while True:
- choice = input("Press 1 to Begin Conversion 2 to quit: ")
- if choice == "1":
+ 
+ while True:
+  choice = input("Press 1 to Begin Conversion 2 to quit: ")
+  if choice == "1":
     amount = int(input("Enter amount: "))
     country = input("Enter Country to Convert: ")
     if country == "england" or country == "uk"  or  country == "scotland"   or country == "wales":
@@ -46,7 +43,7 @@ while True:
     code = getCode(country)
     conversion = getCurrency(amount,country)
     print(amount, "USD is", conversion, code, "in", country  )
- elif choice == "2":
+  elif choice == "2":
     break 
  else:
     print("Invalid Input. Try Again") 
