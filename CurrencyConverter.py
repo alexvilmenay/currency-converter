@@ -26,7 +26,7 @@ def getCurrency(amount,country):
    nationCode = getCode(country)
    usCon = amount/ rates["USD"]
    currency = usCon * rates[nationCode]
-   return currency
+   return round(currency,2)
 
 
   
